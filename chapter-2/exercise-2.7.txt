@@ -1,0 +1,65 @@
+Exercises 2.7
+Identify and correct the errors in each of the following statements. (Note: there
+may be more than one error per statement.)
+---
+
+a)  scanf( "d", value );
+
+    Missing percent and ampersand, should be:
+    scanf( "%d", &value );
+
+b)  printf( "The product of %d and %d is %d"\n, x, y );
+
+    Missing third variable, should be:
+    printf( "The product of %d and %d is %d\n", x, y, z );
+
+c)  firstNumber + secondNumber = sumOfNumbers
+
+    Backwards, should be:
+    sumOfNumbers = firstNumber + secondNumber
+
+d)  if ( number => largest )
+       largest == number;
+
+    Missing braces, incorrect operator. Should be:
+    if ( number >= largest ) {
+      largest == number;
+    }
+
+e)  */ Program to determine the largest of three integers /*
+
+    Should be:
+    /* Program to determine the largest of three integers */
+
+f)  Scanf( "%d", anInteger );
+
+    Scanf should be lower-case, missing ampersand. Should be:
+    scanf( "%d", &anInteger );
+
+g)  printf( "Remainder of %d divided by %d is\n", x, y, x % y );
+
+    Missing the third %d. My guess here is that 'x % y' should be a variable. But
+    I can't find a good example of this in the chapter.
+
+    remainder = x % y;
+
+    To say:
+    printf( "Remainder of %d divided by %d is %d\n", x, y, remainder );
+
+h)  if ( x = y );
+      printf( %d is equal to %d\n", x, y );
+
+    Missing braces and left quote. Should be:
+    if ( x = y ) {
+      printf( "%d is equal to %d\n", x, y );
+    }
+
+i)  print( "The sum is %d\n", x, y );
+
+    One too many arguments, "f" is missing from "printf". Should be:
+    printf( "The sum is %d\n", x );
+
+j)  Printf( "The value you entered is: %d\n, &value );
+
+    printf should be lowercase, missing closing quote, unnecessary ampersand. Should be:
+    printf( "The value you entered is: %d\n, value" );

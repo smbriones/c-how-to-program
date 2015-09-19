@@ -1,0 +1,42 @@
+Exercises 2.6
+Identify and correct the errors in each of the following statements:
+---
+
+a)  printf( "The value is %d\n", &number );
+
+    printf( "The value is %d\n", number );
+
+    An ampersand is not necessary before number because we are only printing a
+    value, not saving to memory.
+
+
+b)  scanf( "%d%d", &number1, number2 );
+
+    scanf( "%d%d", &number1, &number2 );
+
+    We are saving a value to memory here, therefore the variable number2 also
+    should be proceeded by an ampersand.
+
+
+c)  if ( c > 7 );{
+      printf( "C is less than 7\n" );
+    }
+
+    if ( c > 7 ) {
+      printf( "C is less than 7\n" );
+    }
+
+    The semicolon to the left of the left brace would make it so that the statement
+    does nothing. Remove the semicolon.
+
+
+d)  if ( c => 7 ) {
+      printf( "C is equal to or less than 7\n" );
+    }
+
+    if ( c >= 7 ) {
+      printf( "C is greater than or equal to 7\n" );
+    }
+
+    => is a backwards way of saying "greater than or equal to". Flip those (>=)
+    and the operator would be valid.
