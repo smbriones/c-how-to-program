@@ -1,6 +1,6 @@
 // Exercises 2.21
 // (Odd or Even) Write a program that reads an integer and determines and prints
-// whether it is odd or even. [Hint: Use the remainder operater. Any even number
+// whether it is odd or even. [Hint: Use the remainder operator. Any even number
 // is a multiple of two. Any multiple of two leaves a remainder of zero when
 // divided by 2.]
 
@@ -17,6 +17,6 @@ int main() {
   } else {
     printf( "%d is an odd number. \n", number );
   }
-  
+
   return 0;
 }
