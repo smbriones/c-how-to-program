@@ -1,4 +1,4 @@
-// Exercises 2.26
+// Exercises 2.32
 // Body Mass Index Calculator
 
 #include <stdio.h>
