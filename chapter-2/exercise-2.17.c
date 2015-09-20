@@ -28,4 +28,5 @@ int main() {
   printf("3, ");
   printf("4\n");
 
+  return 0;
 }

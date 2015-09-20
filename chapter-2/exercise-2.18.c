@@ -24,4 +24,6 @@ int main() {
   if ( integer1 == integer2 ) {
     printf("These numbers are equal.\n");
   }
+
+  return 0;
 }

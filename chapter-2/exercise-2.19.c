@@ -64,4 +64,6 @@ int main() {
       printf("Largest is %d\n", z );
     }
   }
+  
+  return 0;
 }
