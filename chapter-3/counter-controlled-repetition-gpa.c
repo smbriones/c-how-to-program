@@ -9,7 +9,7 @@ int main() {
   float GPA;            // Grade Point Average
 
   totalGrades = 0;
-  gradeCount = 1;
+  gradeCount = 0;
 
   while (true) {
     printf( "Enter the total grades for the student, (enter -1 to end): \n" );
